@@ -1,6 +1,6 @@
 --CREATION DES TABLES--
 
--- 1. QUARTIER
+--TABLE QUARTIER--
 CREATE TABLE quartier (
     id_quartier  SERIAL PRIMARY KEY,
     nom_quartier VARCHAR(100) NOT NULL,
@@ -8,7 +8,7 @@ CREATE TABLE quartier (
 );
  
  
--- 2. UTILISATEUR
+-- TABLE UTILISATEUR--
 CREATE TABLE utilisateur (
     id_user      SERIAL PRIMARY KEY,
     nom          VARCHAR(100) NOT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE utilisateur (
 );
  
  
--- 3. RESTAURANTS
+-- TABLE RESTAURANTS--
 CREATE TABLE restaurants (
     id_restaurant  SERIAL PRIMARY KEY,
     nom            VARCHAR(150) NOT NULL,
@@ -35,7 +35,7 @@ CREATE TABLE restaurants (
 );
  
  
--- 4. PHOTO
+-- TABLE PHOTO--
 CREATE TABLE photo (
     id_photo      SERIAL PRIMARY KEY,
     url_photo     VARCHAR(255) NOT NULL,
@@ -43,7 +43,7 @@ CREATE TABLE photo (
 );
  
  
--- 5. MENU
+-- TABLE MENU--
 CREATE TABLE menu (
     id_menu       SERIAL PRIMARY KEY,
     nom_plat      VARCHAR(150) NOT NULL,
@@ -55,7 +55,7 @@ CREATE TABLE menu (
 );
  
  
--- 6. AVIS
+--TABLE AVIS--
 CREATE TABLE avis (
     id_avis       SERIAL PRIMARY KEY,
     note          INT  NOT NULL CHECK (note BETWEEN 1 AND 5),
@@ -66,7 +66,7 @@ CREATE TABLE avis (
 );
  
  
--- 7. FAVORI
+-- TABLE FAVORI--
 CREATE TABLE favori (
     id_user       INT NOT NULL REFERENCES utilisateur(id_user) ON DELETE CASCADE,
     id_restaurant INT NOT NULL REFERENCES restaurants(id_restaurant) ON DELETE CASCADE,
