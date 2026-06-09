@@ -8,9 +8,8 @@ INSERT INTO quartier (nom_quartier, description) VALUES
 INSERT INTO utilisateur (nom, email, mot_de_passe, role) VALUES
 ('Gerzo MAKAYA', 'gerzomakaya55@gmail.com', '126457645lk', 'moderateur'),
 ('Précieux KIMINOU', 'precieuxrelkiminou@gmail.com', 'Admin3506l', 'restaurateur'),
-('Gotron MBOMO','@gmail.com','Gotron564','Restaurateur'),
+('Gotron MBOMO','gotronMB@gmail.com','Gotron564','Restaurateur'),
 ('Selma MOULOUANDA','tiphaniemoun@gmail.com','SM756SD','Restaurateur'),
 ('Djowen MAKOSSO', 'bigbossking@gmail.com', 'Djowen97J7Y', 'client'),
 ('Monica OPPELET','monicaoppelet@gmail.com','Monica75TF','Client'),
-('Izya LOCKO','lockoizya@gmail.com','izya132LK','Client'),
-('','@gmail.com','','Client'),
+('Izya LOCKO','lockoizya@gmail.com','izya132LK','Client');
