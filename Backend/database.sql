@@ -72,4 +72,3 @@ CREATE TABLE favori (
     id_restaurant INT NOT NULL REFERENCES restaurants(id_restaurant) ON DELETE CASCADE,
     PRIMARY KEY (id_user, id_restaurant)
 );
- 
