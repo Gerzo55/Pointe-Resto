@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PointeResto - Découvrez les meilleurs restaurants</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fa-solid fa-utensils"></i>
+            <span>PointeResto</span>
+        </div>
+        <nav>
+            <a href="#">Accueil</a>
+            <a href="#">Favoris</a>
+            <a href="login.html">Connexion</a>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Trouvez les meilleurs restaurants de Pointe-Noire</h1>
+        <p>Découvrez des restaurants, fast-foods et maquis près de chez vous.</p>
+        <form class="search-box">
+            <input type="text" placeholder="Rechercher un plat ou un restaurant...">
+            <select>
+                <option>Tous les quartiers</option>
+                <option>Lumumba</option>
+                <option>Tié-Tié</option>
+                <option>Mpaka</option>
+                <option>Côte Sauvage</option>
+                <option>Centre-ville</option>
+            </select>
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                Rechercher
+            </button>
+        </form>
+    </section>
+    <main>
+        <section class="restaurants">
+            <h2>Restaurants populaires</h2>
+            <div class="restaurant-grid">
+                <div class="restaurant-card">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4" alt="Restaurant">
+                    <div class="card-content">
+                        <h3>La Paillote</h3>
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Lumumba
+                        </p>
+                        <p class="description">
+                            Cuisine locale et grillades dans un cadre convivial.
+                        </p>
+                        <div class="card-footer">
+                            <span class="rating">
+                                ⭐ 4.8
+                            </span>
+                            <span class="status open">
+                                Ouvert
+                            </span>
+                        </div>
+                        <a href="#" class="btn-details">
+                            Voir détails
+                        </a>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <img src="https://images.unsplash.com/photo-1552566626-52f8b828add9" alt="Restaurant">
+                    <div class="card-content">
+                        <h3>Le Derrick</h3>
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Centre-ville
+                        </p>
+                        <p class="description">
+                            Fruits de mer et spécialités congolaises.
+                        </p>
+                        <div class="card-footer">
+                            <span class="rating">
+                                ⭐ 4.6
+                            </span>
+                            <span class="status closing">
+                                Ferme bientôt
+                            </span>
+                        </div>
+                        <a href="#" class="btn-details">
+                            Voir détails
+                        </a>
+                    </div>
+                </div>
+                <div class="restaurant-card">
+                    <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38" alt="Restaurant">
+                    <div class="card-content">
+                        <h3>Fast Lumumba</h3>
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Lumumba
+                        </p>
+                        <p class="description">
+                            Burgers, pizzas et livraison rapide.
+                        </p>
+                        <div class="card-footer">
+                            <span class="rating">
+                                ⭐ 4.3
+                            </span>
+                            <span class="status closed">
+                                Fermé
+                            </span>
+                        </div>
+                        <a href="#" class="btn-details">
+                            Voir détails
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2026 PointeResto - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
