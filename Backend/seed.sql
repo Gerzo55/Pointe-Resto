@@ -12,7 +12,11 @@ INSERT INTO utilisateur (nom, email, mot_de_passe, role) VALUES
 ('Selma MOULOUANDA','tiphaniemoun@gmail.com','SM756SD','Restaurateur'),
 ('Djowen MAKOSSO', 'bigbossking@gmail.com', 'Djowen97J7Y', 'client'),
 ('Monica OPPELET','monicaoppelet@gmail.com','Monica75TF','Client'),
-('Izya LOCKO','lockoizya@gmail.com','izya132LK','Client');
+('Izya LOCKO','lockoizya@gmail.com','izya132LK','Client'),
+('Kevin Mavoungou','kevin.mavoungou@gmail.com','k3vin@2026','Client'),
+('Sarah Ndziami','sarah.ndziami@yahoo.com','S4rahpass','Client'),
+('Jordan Mbemba','jordan.mbemba@gmail.com','j0rdan!2026','Client'),
+('Grâce Taty','grace.taty@gmail.com','Gr@ce7890','Client');
 
 INSERT INTO restaurant (nom_restaurant,Adresse,Téléphone,Description,Latitude,longitude,statut,null,quartier_id) VALUES
 ('Saveurs de Lumumba','Avenue Lumumba','+242 06-101-10-01','Cuisine congolaise et grillades',-4.7751,11.8561,'ACTIF',null,1),
@@ -29,7 +33,7 @@ INSERT INTO restaurant (nom_restaurant,Adresse,Téléphone,Description,Latitude,
 ('Riviera Centre','Avenue Indépendance','+242 06-101-10-12','Cuisine Internationale',-4.7862,11.8654,'ACTIF',null,5),
 ('Le phare Gourmand','Rue du Littoral','+242 06-101-10-13','Fruits de mer et cocktails',-4.7810,11.8305,'ACTIF',null,4),
 ('Lumumba Express','Avenue du Stade','+242 06-101-10-14','Fast-food et grillades',-4.7775,11.8582,'ACTIF',null,1),
-('Tchié Saveurs','Rue des palmiers','+242 06-101-10-15','Spécialités africaines et européennes',-4.7924,11.8509,'ACTIF',null,2),
+('Tchié Saveurs','Rue des palmiers','+242 06-101-10-15','Spécialités africaines et européennes',-4.7924,11.8509,'ACTIF',null,2);
 
 INSERT INTO menu (nom_plat, prix, description, disponible, id_restaurant) VALUES
 ('Poisson braisé', 3000, 'Poisson grillé au feu de bois', true, 1),
@@ -52,9 +56,12 @@ INSERT INTO menu (nom_plat, prix, description, disponible, id_restaurant) VALUES
 ('Chawarma Poulet',3000'FCFA','Galette roulée au poulet et légumes',true,3),
 ('Frites de patate',2000'FCFA','Frites croustillantes de patate douce',true1),
 ('Assiette Mixte'9000'FCFA','Mélange de boeuf, poulet et saucisses',false,1),
-('Plateau Fruits de Mer',12000'FCFA','Assortiment de poissons crevettes et calamars',true,1),
+('Plateau Fruits de Mer',12000'FCFA','Assortiment de poissons crevettes et calamars',true,1);
 
 INSERT INTO avis (note, commentaire, date_avis, id_user, id_restaurant) VALUES
-(5, 'Excellent restaurant, je recommande !', '2026-01-15', 3, 1),
-(4, 'Très bon poisson braisé', '2026-02-10', 4, 1),
-(3, 'Service correct mais un peu lent', '2026-03-05', 5, 2);
+(5, 'Excellent restaurant, vivement la prochaine fois !', '2026-01-15', 3, 1),
+(5, 'Très bon poisson braisé, je recommande.','2026-05-13',5,2),
+(4, 'Cadre magnifique et plats délicieux.','2026-05-14',4,4),
+(3, 'Cuisine correcte mais attente un peu longue.','2026-05-14',2,5),
+(4, 'Bon rapport qualité prix.','2026-05-16',1,3),
+(4, 'Nourriture correcte sans plus.','2026-05-20',1,5);
