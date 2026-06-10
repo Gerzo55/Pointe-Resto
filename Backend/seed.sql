@@ -19,21 +19,21 @@ INSERT INTO utilisateur (nom, email, mot_de_passe, role) VALUES
 ('Grâce Taty','grace.taty@gmail.com','Gr@ce7890','Client');
 
 INSERT INTO restaurant (nom_restaurant,Adresse,Téléphone,Description,Latitude,longitude,statut,null,quartier_id) VALUES
-('Saveurs de Lumumba','Avenue Lumumba','+242 06-101-10-01','Cuisine congolaise et grillades',-4.7751,11.8561,'ACTIF',null,1),
-('Le Baobab Royal','Rue des manguiers','+242 06-101-10-02','Spécialités locales et plats familiaux',-4.7760,11.8570,'ACTIF',null,1),
-('Chez Maman Yaya','Avenue de la gare','+242 06-101-10-03','Cuisine Traditionnelle Congolaise',-4.7902,11.8485,'ACTIF',null,2),
-('Tchié-Tchié Grill','Rue des Ecoles','+242 06-101-10-04','Grillades et poissons braisés',-4.7911,11.8498,'ACTIF',null,2),
-('Océan Bleu','Boulevard Océan','+242 06-101-10-05','Fruits de mer avec vue sur Océan',-4.7825,11.8320,'ACTIF',null,4),
-('Sunset Côte Sauvage','Route de la plage','+242 06-101-10-06','Terrasse face à la mer',-4.7839,11.8335,'ACTIF',null,4),
-('Chez Biso','Avenue de Mpaka','+242 06-101-10-07','Cuisine africaine à prix abordables',-4.8122,11.8701,'ACTIF',null,3),
-('Le palmier Vert','Rue du Marché','+242 06-101-10-08','Plats locaux et jus naturels',-4.8138,11.8715,'ACTIF',null,3),
-('Mpaka Délices','Boulevard Principal','+242 06-101-10-09','Cuisine mixte africaine et européenne',-4.8151,11.8730,'ACTIF',null,3),
-('Central Food','Avenue Charles de Gaulle','+242 06-101-10-10','Cuisine rapide et moderne',-4.7848,11.8632,'ACTIF',null,5),
-('Le Gourmet du Centre','Rue Loango','+242 06-101-10-11','Restaurant gastronomique',-4.7855,11.8640,'ACTIF',null,5),
-('Riviera Centre','Avenue Indépendance','+242 06-101-10-12','Cuisine Internationale',-4.7862,11.8654,'ACTIF',null,5),
-('Le phare Gourmand','Rue du Littoral','+242 06-101-10-13','Fruits de mer et cocktails',-4.7810,11.8305,'ACTIF',null,4),
-('Lumumba Express','Avenue du Stade','+242 06-101-10-14','Fast-food et grillades',-4.7775,11.8582,'ACTIF',null,1),
-('Tchié Saveurs','Rue des palmiers','+242 06-101-10-15','Spécialités africaines et européennes',-4.7924,11.8509,'ACTIF',null,2);
+('Saveurs de Lumumba','Avenue Lumumba','+242 06-101-10-01','Cuisine congolaise et grillades',-4.7751,11.8561,'ACTIF',photo_url,1),
+('Le Baobab Royal','Rue des manguiers','+242 06-101-10-02','Spécialités locales et plats familiaux',-4.7760,11.8570,'ACTIF',phoyo_url,1),
+('Chez Maman Yaya','Avenue de la gare','+242 06-101-10-03','Cuisine Traditionnelle Congolaise',-4.7902,11.8485,'ACTIF',phoyo_url,2),
+('Tchié-Tchié Grill','Rue des Ecoles','+242 06-101-10-04','Grillades et poissons braisés',-4.7911,11.8498,'ACTIF',photo_url,2),
+('Océan Bleu','Boulevard Océan','+242 06-101-10-05','Fruits de mer avec vue sur Océan',-4.7825,11.8320,'ACTIF',photo_url,4),
+('Sunset Côte Sauvage','Route de la plage','+242 06-101-10-06','Terrasse face à la mer',-4.7839,11.8335,'ACTIF',photo_url,4),
+('Chez Biso','Avenue de Mpaka','+242 06-101-10-07','Cuisine africaine à prix abordables',-4.8122,11.8701,'ACTIF',photo_url,3),
+('Le palmier Vert','Rue du Marché','+242 06-101-10-08','Plats locaux et jus naturels',-4.8138,11.8715,'ACTIF',photo_url,3),
+('Mpaka Délices','Boulevard Principal','+242 06-101-10-09','Cuisine mixte africaine et européenne',-4.8151,11.8730,'ACTIF',photo_url,3),
+('Central Food','Avenue Charles de Gaulle','+242 06-101-10-10','Cuisine rapide et moderne',-4.7848,11.8632,'ACTIF',photo_url,5),
+('Le Gourmet du Centre','Rue Loango','+242 06-101-10-11','Restaurant gastronomique',-4.7855,11.8640,'ACTIF',photo_url,5),
+('Riviera Centre','Avenue Indépendance','+242 06-101-10-12','Cuisine Internationale',-4.7862,11.8654,'ACTIF',photo_url,5),
+('Le phare Gourmand','Rue du Littoral','+242 06-101-10-13','Fruits de mer et cocktails',-4.7810,11.8305,'ACTIF',photo_url,4),
+('Lumumba Express','Avenue du Stade','+242 06-101-10-14','Fast-food et grillades',-4.7775,11.8582,'ACTIF',photo_url,1),
+('Tchié Saveurs','Rue des palmiers','+242 06-101-10-15','Spécialités africaines et européennes',-4.7924,11.8509,'ACTIF',photo_url,2);
 
 INSERT INTO menu (nom_plat, prix, description, disponible, id_restaurant) VALUES
 ('Poisson braisé', 3000, 'Poisson grillé au feu de bois', true, 1),
