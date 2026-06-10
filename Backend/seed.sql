@@ -1,10 +1,3 @@
-INSERT INTO quartier (nom_quartier, description) VALUES
-('Centre-Ville', 'Le coeur de Pointe-Noire'),
-('Lumumba', 'Arrondissement 1 de Pointe-Noire'),
-('Tié-Tié', 'Arrondissement 3 de Pointe-Noire'),
-('Mpaka', 'Quartier situé dans le 6e arrondissement'),
-('Côte Sauvage', 'Zone côtière et touristique');
-
 INSERT INTO utilisateur (nom, email, mot_de_passe, role) VALUES
 ('Gerzo MAKAYA', 'gerzomakaya55@gmail.com', '126457645lk', 'moderateur'),
 ('Précieux KIMINOU', 'precieuxrelkiminou@gmail.com', 'Admin3506l', 'restaurateur'),
@@ -37,26 +30,26 @@ INSERT INTO restaurant (nom_restaurant,Adresse,Téléphone,Description,Latitude,
 
 INSERT INTO menu (nom_plat, prix, description, disponible, id_restaurant) VALUES
 ('Poisson braisé', 3000, 'Poisson grillé au feu de bois', true, 1),
-('Poulet DG',6500'FCFA','Poulet sauté avec légumes et plantains mûrs',true,1),
-('Poisson braisé',5500'FCFA','Poisson frais grillé avec attiéké',true,1),
-('Saka-Saka au poisson',4500'FCFA','Feuilles de manioc préparées avec du poisson fumé',true,2),
-('Poulet Mayo',5000'FCFA','Poulet rôti servi avec fruits et mayonnaise',false,2),
-('Brochettes de Boeuf',4000'FCFA','Brochettes épicées accompagnées de bananes plantains',true,4),
-('Riz aux crevettes',6000'FCFA','Riz parfumé aux crevettes et légumes',true,4),
-('Tilapia Grillé'7000'FCFA','Tilapia entier grillé avec sauce pimentée',true,2),
-('Burger Tropical',5500'FCFA','Burger de boeuf avec ananas grillé',false,5),
-('Pizza Fruits de Mer',8500'FCFA','Pizza garnie de crevettes, calamars et moules',true,3),
-('Spaghetti Bolognaise'5000'FCFA','Pâte servies avec sauce à la viande hâchée',true,5),
-('Salade Océan'3500'FCFA','Salade fraîche aux crevettes et thon',true,3),
-('Mafé au Boeuf'6000'FCFA','Sauce arachide accompagnée de viande de boeuf',true,4),
-('Poulet Yassa'5500'FCFA','Poulet mariné au citron et aux oignons',false,5),
-('Crevettes Sautées',7500'FCFA','Crevettes sautées et au beurre',true,5),
-('Couscous Royal'8000'FCFA','Couscous garni de viandes et légumes'true,2),
-('Omelette Spéciale',2500'FCFA','Omelette garnie de légumes et fromages',true,1),
-('Chawarma Poulet',3000'FCFA','Galette roulée au poulet et légumes',true,3),
-('Frites de patate',2000'FCFA','Frites croustillantes de patate douce',true1),
-('Assiette Mixte'9000'FCFA','Mélange de boeuf, poulet et saucisses',false,1),
-('Plateau Fruits de Mer',12000'FCFA','Assortiment de poissons crevettes et calamars',true,1);
+('Poulet DG',6500,'Poulet sauté avec légumes et plantains mûrs',true,1),
+('Poisson braisé',5500,'Poisson frais grillé avec attiéké',true,1),
+('Saka-Saka au poisson',4500,'Feuilles de manioc préparées avec du poisson fumé',true,2),
+('Poulet Mayo',5000,'Poulet rôti servi avec fruits et mayonnaise',false,2),
+('Brochettes de Boeuf',4000,'Brochettes épicées accompagnées de bananes plantains',true,4),
+('Riz aux crevettes',6000,'Riz parfumé aux crevettes et légumes',true,4),
+('Tilapia Grillé',7000,'Tilapia entier grillé avec sauce pimentée',true,2),
+('Burger Tropical',5500,'Burger de boeuf avec ananas grillé',false,5),
+('Pizza Fruits de Mer',8500,'Pizza garnie de crevettes, calamars et moules',true,3),
+('Spaghetti Bolognaise',5000,'Pâte servies avec sauce à la viande hâchée',true,5),
+('Salade Océan',3500,'Salade fraîche aux crevettes et thon',true,3),
+('Mafé au Boeuf',6000,'Sauce arachide accompagnée de viande de boeuf',true,4),
+('Poulet Yassa',5500,'Poulet mariné au citron et aux oignons',false,5),
+('Crevettes Sautées',7500,'Crevettes sautées et au beurre',true,5),
+('Couscous Royal',8000,'Couscous garni de viandes et légumes'true,2),
+('Omelette Spéciale',2500,'Omelette garnie de légumes et fromages',true,1),
+('Chawarma Poulet',3000,'Galette roulée au poulet et légumes',true,3),
+('Frites de patate',2000,'Frites croustillantes de patate douce',true1),
+('Assiette Mixte',9000,'Mélange de boeuf, poulet et saucisses',false,1),
+('Plateau Fruits de Mer',12000,'Assortiment de poissons crevettes et calamars',true,1);
 
 INSERT INTO avis (note, commentaire, date_avis, id_user, id_restaurant) VALUES
 (5, 'Excellent restaurant, vivement la prochaine fois !', '2026-01-15', 3, 1),
