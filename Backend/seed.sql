@@ -18,7 +18,7 @@ INSERT INTO utilisateur (nom, email, mot_de_passe, role) VALUES
 ('Jordan Mbemba','jordan.mbemba@gmail.com','j0rdan!2026','Client'),
 ('Grâce Taty','grace.taty@gmail.com','Gr@ce7890','Client');
 
-INSERT INTO restaurant (nom_restaurant,Adresse,Téléphone,Description,Latitude,longitude,statut,null,quartier_id) VALUES
+INSERT INTO restaurant (nom_restaurant,Adresse,Téléphone,Description,Latitude,longitude,statut,photo_url,quartier_id) VALUES
 ('Saveurs de Lumumba','Avenue Lumumba','+242 06-101-10-01','Cuisine congolaise et grillades',-4.7751,11.8561,'ACTIF',photo_url,1),
 ('Le Baobab Royal','Rue des manguiers','+242 06-101-10-02','Spécialités locales et plats familiaux',-4.7760,11.8570,'ACTIF',phoyo_url,1),
 ('Chez Maman Yaya','Avenue de la gare','+242 06-101-10-03','Cuisine Traditionnelle Congolaise',-4.7902,11.8485,'ACTIF',phoyo_url,2),
